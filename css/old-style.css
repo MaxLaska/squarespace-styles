@@ -31,7 +31,7 @@ p, h1, h2, h3 {
 
   }
 
-//Block “Hier deine Beschreibung eingeben” bei mobiler Ansicht verstecken
+/*Block “Hier deine Beschreibung eingeben” bei mobiler Ansicht verstecken*/
 
 @media only screen and (max-width: 690px) {
 
@@ -41,7 +41,7 @@ p, h1, h2, h3 {
 
 }
 
-//Überschriften-Schriftgröße für mobile Geräte verändern
+/*Überschriften-Schriftgröße für mobile Geräte verändern*/
 
 @media screen and (max-width: 690px) {
 
@@ -157,7 +157,7 @@ background: #0080FF; color: #ffffff; }
   border-bottom: none !important;
 }
 
-// FLIP OVER SOCIAL ICONS - SOCIAL BLOCK - GHOSTPLUGINS.COM //
+/* FLIP OVER SOCIAL ICONS - SOCIAL BLOCK - GHOSTPLUGINS.COM */
 
 .socialaccountlinks-v2-block .sqs-svg-icon--wrapper, .social-account-links-v2-block .sqs-svg-icon--wrapper {
   transform: scaleX(1) !important;
