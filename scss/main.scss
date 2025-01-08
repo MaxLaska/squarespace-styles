@@ -1,0 +1,16 @@
+// scss/main.scss
+
+// Base
+@use 'base/variables';
+@use 'base/reset';
+
+// Components
+@use 'components/buttons';
+@use 'components/cards';
+
+// Layouts
+@use 'layouts/header';
+@use 'layouts/footer';
+
+// Global (falls benötigt)
+@use '_main';

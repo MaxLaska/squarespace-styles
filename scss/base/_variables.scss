@@ -1,0 +1,16 @@
+// scss/base/_variables.scss
+
+// SCSS Variablen
+
+// Color
+$my-primary-color: #ff0000; // Red
+
+// Font
+$my-font-size-small: 14px;
+
+// CSS-Variablen (für Laufzeit-Anpassungen)
+:root {
+    --my-primary-color: #{$my-primary-color};
+    --my-font-size-small: #{$my-font-size-small};
+
+}

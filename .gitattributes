@@ -1,0 +1,11 @@
+# Stelle sicher, dass CSS- und SCSS-Dateien LF verwenden
+*.css text eol=lf
+*.scss text eol=lf
+
+# Textdateien verwenden LF
+*.md text eol=lf
+*.txt text eol=lf
+
+# Windows-spezifische Dateien verwenden CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf

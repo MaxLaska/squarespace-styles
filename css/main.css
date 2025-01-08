@@ -1,3 +1,17 @@
+:root {
+  --my-primary-color: #ff0000;
+  --my-font-size-small: 14px;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  font-size: var(--my-font-size-small);
+  color: var(--my-primary-color);
+}
+
+.button {
+  background-color: var(--my-primary-color);
+  font-size: var(--my-font-size-small);
+}
 
 /*# sourceMappingURL=main.css.map */

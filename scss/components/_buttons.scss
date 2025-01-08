@@ -1,0 +1,6 @@
+@use '../base/variables';
+
+.button {
+    background-color: var(--my-primary-color);
+    font-size: var(--my-font-size-small);
+}

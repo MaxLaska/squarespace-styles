@@ -1,0 +1,10 @@
+// scss/base/ reset.scss
+
+@use '../base/variables';
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: var(--my-font-size-small);
+    color: var(--my-primary-color);
+}
