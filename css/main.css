@@ -1,6 +1,16 @@
+@charset "UTF-8";
+/* Dunkelgrau für normale Linien */
+/* Grau für nicht aktivierte klickbare Linien */
+/* Türkis für hervorgehobene Linien */
+/* Hellgrau für Hover-Effekt */
 :root {
   --my-primary-color: #ff0000;
   --my-font-size-small: 14px;
+  /* Navbar */
+  --navbar-line-default-color:#333;
+  --navbar-line-inactive-color:#555;
+  --navbar-line-highlight-color:#40e0d0;
+  --navbar-line-hover-color:#777;
 }
 
 body {
@@ -12,6 +22,62 @@ body {
 .button {
   background-color: var(--my-primary-color);
   font-size: var(--my-font-size-small);
+}
+
+.sections {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  scroll-snap-align: start;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Navigation Bar Styles */
+.scroll-nav {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  z-index: 1000;
+}
+
+/* Standard line */
+.line {
+  height: 10px;
+  width: 20px;
+  background-color: var(--navbar-line-default-color); /* Standardfarbe durch Variable */
+  transition: background-color 0.15s ease, width 0.1s ease-in-out;
+}
+
+/* Clickable line */
+.line.clickable {
+  width: 40px;
+  height: 12px; /* Slightly taller for better distinction */
+  cursor: pointer;
+  background-color: var(--navbar-line-inactive-color); /* Neutral color for non-active clickable lines */
+}
+
+/* Highlighted line */
+.line.highlighted {
+  background-color: var(--navbar-line-highlight-color); /* Farbe für hervorgehobene Linien */
+  width: 60px; /* Breiter für hervorgehobene Linien */
+}
+
+/* Optional Hover-Effekt */
+.line:not(.highlighted):hover {
+  background-color: var(--navbar-line-hover-color); /* Hover-Farbe */
 }
 
 /*# sourceMappingURL=main.css.map */
