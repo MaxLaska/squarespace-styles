@@ -8,9 +8,24 @@ $my-primary-color: #ff0000; // Red
 // Font
 $my-font-size-small: 14px;
 
+//Navbar
+
+$navbar-line-default-color: #333; /* Dunkelgrau für normale Linien */
+$navbar-line-inactive-color: #555; /* Grau für nicht aktivierte klickbare Linien */
+$navbar-line-highlight-color: #40e0d0; /* Türkis für hervorgehobene Linien */
+$navbar-line-hover-color: #777; /* Hellgrau für Hover-Effekt */
+
+
 // CSS-Variablen (für Laufzeit-Anpassungen)
 :root {
     --my-primary-color: #{$my-primary-color};
     --my-font-size-small: #{$my-font-size-small};
+    --navbar-line-color: #{$navbar-line-color};
+
+    /* Navbar */
+    --navbar-line-default-color:#{$navbar-line-default-color};
+    --navbar-line-inactive-color:#{$navbar-line-inactive-color};
+    --navbar-line-highlight-color:#{$navbar-line-highlight-color};
+    --navbar-line-hover-color:#{$navbar-line-hover-color};
 
 }
