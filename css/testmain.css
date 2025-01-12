@@ -1,0 +1,12 @@
+/* Stile für die Testbox */
+.test-box {
+    width: 300px;
+    height: 150px;
+    background-color: lightblue;
+    color: darkblue;
+    font-size: 20px;
+    text-align: center;
+    line-height: 150px; /* Zentriert den Text vertikal */
+    border: 2px solid navy;
+    border-radius: 10px;
+}
