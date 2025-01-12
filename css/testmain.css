@@ -10,3 +10,11 @@
     border: 2px solid navy;
     border-radius: 10px;
 }
+
+.content {
+    background: red;
+}
+
+.section-background {
+    background: #25ff96!important;
+}
