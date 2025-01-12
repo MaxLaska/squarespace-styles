@@ -1,0 +1,10 @@
+
+/* Snap Scrolling Css */
+.page-section {
+    height: 100vh; /* Stellt sicher, dass jeder Abschnitt die volle Höhe des Viewports einnimmt */
+    scroll-snap-align: start; /* Optional für unterstützende Browser */
+    position: relative; /* Sicherstellen, dass keine absoluten Positionierungen Konflikte erzeugen */
+    overflow: hidden; /* Verhindert unerwünschtes Scrollen innerhalb der Sektionen */
+  }
+  
+  

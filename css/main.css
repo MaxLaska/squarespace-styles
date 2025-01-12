@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Test ob das hier schnell genug syncronisiert wird*/
 /* Dunkelgrau für normale Linien */
 /* Grau für nicht aktivierte klickbare Linien */
 /* Türkis für hervorgehobene Linien */
@@ -13,17 +14,21 @@
   --navbar-line-hover-color:#777;
 }
 
+/* Test ob das hier schnell genug syncronisiert wird*/
 body {
   font-family: Arial, sans-serif;
   font-size: var(--my-font-size-small);
   color: var(--my-primary-color);
 }
 
+/* Test ob das hier schnell genug syncronisiert wird*/
 .button {
   background-color: var(--my-primary-color);
   font-size: var(--my-font-size-small);
 }
 
+/* Test ob das hier schnell genug syncronisiert wird*/
+/* Test ob das hier schnell genug syncronisiert wird*/
 .sections {
   height: 100vh;
   scroll-snap-type: y mandatory;
@@ -79,5 +84,8 @@ body {
 .line:not(.highlighted):hover {
   background-color: var(--navbar-line-hover-color); /* Hover-Farbe */
 }
+
+/* Test ob das hier schnell genug syncronisiert wird*/
+/* Test ob das hier schnell genug syncronisiert wird*/
 
 /*# sourceMappingURL=main.css.map */
